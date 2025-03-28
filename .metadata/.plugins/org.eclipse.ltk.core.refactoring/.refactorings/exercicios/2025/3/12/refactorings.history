@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;fundamentos.ConvesaoStringNumero.java&apos; to &apos;ConversaoStringNumero.java&apos;&#x0D;&#x0A;- Original project: &apos;exercicios&apos;&#x0D;&#x0A;- Original element: &apos;fundamentos.ConvesaoStringNumero.java&apos;&#x0D;&#x0A;- Renamed element: &apos;fundamentos.ConversaoStringNumero.java&apos;" description="Rename compilation unit &apos;ConvesaoStringNumero.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;fundamentos{ConvesaoStringNumero.java" name="ConversaoStringNumero.java" references="false" stamp="1742492079839" version="1.0"/>
+</session>

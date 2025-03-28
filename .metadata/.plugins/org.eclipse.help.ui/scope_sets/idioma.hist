@@ -1,0 +1,6 @@
+#Fri Mar 21 10:50:19 GFT 2025
+__DEFAULT__=false
+expression=idioma
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
