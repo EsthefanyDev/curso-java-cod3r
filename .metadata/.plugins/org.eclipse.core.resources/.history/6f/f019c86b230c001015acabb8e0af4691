@@ -1,0 +1,27 @@
+package fundamentos.operadores;
+
+public class DesafioLogicos {
+	public static void main(String[] args) {
+		// Trabalho terça (V ou F)
+		// Trabalho quinta (V ou F)
+		
+		// Se os dois trabalhos derem certo = ir no Shoping(tomar sorvete) e TV 50
+		
+		// Se apenas um dos trabalhos der certo = ir no Shoping(tomar sorvete) e TV 32
+		
+		// Se nenhum trabalho der certo = sem sorve(com fome) e sem TV
+		
+		boolean trabalho1 = false;
+		boolean trabalho2 = false;
+		
+		boolean comprouTv50 = trabalho1 && trabalho2;
+		boolean comprouTv32 = trabalho1 ^ trabalho2;
+		boolean naoComprouNada = !trabalho1 && !trabalho2;
+		
+		System.out.print("comprar TV50\" e tomar sorvete? " + comprouTv50);
+		
+		System.out.print("\nComprar TV32\" e tomar sorvete? " + comprouTv32);
+		
+		System.out.print("\nQue pena nenhum dos dois trabalhos deu certo, ou seja, sem TV e sem sorvete:/?" + naoComprouNada);
+	}
+}

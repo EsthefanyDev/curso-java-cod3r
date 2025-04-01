@@ -1,0 +1,19 @@
+package controle;
+
+import java.util.Scanner;
+
+public class WhileIndeterminado {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite qualquer coisa.\nSe quiser parar digite sair.");
+		String x = entrada.next();
+		
+		while(x.equalsIgnoreCase("sair")) {
+			break;
+		}
+		
+		
+		entrada.close();
+	}
+}

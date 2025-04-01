@@ -1,0 +1,26 @@
+package fundamentos;
+import java.util.Scanner;
+
+public class DesafioCalculadora {
+	public static void main(String[] args) {
+		// Ler num1
+		// Ler num2
+		// Pedir qual operação ( + - * / % )
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite um número:");
+		double num1 = entrada.nextDouble();
+		System.out.print("Digite outro número:");
+		double num2 = entrada.nextDouble();
+		System.out.print("Qual operaçãoS?");
+		String operacao = entrada.next();
+		
+		
+		
+		
+				  
+		
+		System.out.printf("%d %s %d = ?",num1, operacao, num2);
+		entrada.close();
+	}
+}

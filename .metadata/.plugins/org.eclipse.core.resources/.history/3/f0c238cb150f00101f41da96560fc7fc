@@ -1,0 +1,52 @@
+package controle;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class DesafioWhile {
+	public static void main(String[] args) {
+/*
+1. Digitar notas válidas de 0 a 10.
+2. Armazenar cada nota em total.
+3. Incrementar total com cada nova nota.
+4. Contar quantas notas válidas foram digitadas.
+5. Calcular a média: total dividido pelo número de notas.
+Para sair, digitar -1.
+*/
+		
+		
+		Scanner entrada = new Scanner(System.in);
+		entrada.useLocale(Locale.US);
+		
+		double nota = 0;
+		int notasValidas = 0;
+		double resultado = 0;
+		double total = 0;
+		
+		System.out.println("---- Sistema de Notas ----");
+		System.out.println("Info:\nDigite -1 para sair.");
+		System.out.println("--------------------------\n");
+		
+		while(nota != -1) {
+			System.out.println("Digite uma nota(0 à 10):");
+			nota = entrada.nextDouble();
+			while(nota >= 0 && nota <= 10) {
+				System.out.println("Digite uma nota(0 à 10):");
+				nota = entrada.nextDouble();
+				notasValidas++;
+				total = total + nota;
+			}
+			System.out.println("nota inválida!");
+		}
+		
+		resultado = total / notasValidas;
+		
+		System.out.println("A média da turma é: " + resultado);
+		
+		System.out.println("Fim");
+		
+		
+		entrada.close();
+		
+	}
+}
